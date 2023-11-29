@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Inscription</title>
+    <link rel="stylesheet" href="atelier.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="accueil.html">Accueil</a>
+            <a href="projets.html">Projets</a>
+            <a href="services.html">Services</a>
+            <a href="inscription.html">Inscription</a>
+        </nav>
+        <img src="t.jpg" height="700" width="1700" >
+    </header>
+
+    <section>
+        <!-- Contenu du formulaire d'inscription -->
+        <h1>Inscription</h1>
+        <form action="traitement_inscription.php" method="post">
+            <table>
+                <tr>
+                    <td><label for="nom">Nom :</label></td>
+                    <td><input type="text" id="nom" name="nom" required minlength="3" placeholder="Entrez votre nom"></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom">Prénom :</label></td>
+                    <td><input type="text" id="prenom" name="prenom" required minlength="3" placeholder="Entrez votre prénom"></td>
+                </tr>
+                <tr>
+                    <td><label for="adresse">Adresse :</label></td>
+                    <td><textarea rows="5"> </textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="telephone">Téléphone :</label></td>
+                    <td><input type="tel" id="telephone" name="telephone" required pattern="[0-9]+" placeholder="Entrez votre téléphone"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="email" id="email" name="email" required placeholder="Entrez votre email"></td>
+                </tr>
+                <tr>
+                    <td><label for="motdepasse">Mot de passe :</label></td>
+                    <td><input type="password" id="motdepasse" name="motdepasse" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}" placeholder="Entrez votre mot de passe"></td>
+                </tr>
+                <tr>
+                    <td><label for="motdepasse">Confirmer mot de passe :</label></td>
+                    <td><input type="password" id="motdepasse" name="motdepasse" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}" placeholder="Entrez votre mot de passe"></td>
+                </tr>
+                <tr>
+                    <td><label for="date_naissance">Date de naissance :</label></td>
+                    <td><input type="date" id="date_naissance" name="date_naissance" required></td>
+                </tr>
+            </table>
+           <br> <br> 
+
+            <button type="submit">S'inscrire</button>
+            <button type="reset">Réinitialiser</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contactez-nous par email : <a href="mailto:esprit@esprit.tn">esprit@esprit.tn</a></p>
+        <p>Adresse : Esprit el ghazela </p>
+    </footer>
+
+</body>
+</html>

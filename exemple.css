@@ -1,0 +1,55 @@
+
+
+h1 {
+color : white;
+background-color : rgb(59, 58, 58);
+border-width:8px;
+padding :10px;
+font-size :16px; 
+font-family : Verdana;
+
+
+
+  }
+ h4{color : white;
+   background-color : rgb(59, 58, 58);
+   border-width:8px;
+   padding :10px;
+   font-size :10px;
+   font-family : Verdana;
+    
+
+ } 
+ section{
+   margin-left: 8px;
+   margin-right: 8px;
+   background-color : rgb(197, 195, 195);
+   border-width:1px;
+   border-color: gray;
+   border-style: solid;
+    padding :10px
+   font-size :16px; 
+   font-family: Verdana;
+ }
+ article{
+   margin-left: 8px;
+   margin-right: 8px;
+   margin-bottom: 5px;
+   background-color : white;
+   border-width:1px;
+   border-color: gray;
+   border-style: solid;
+    padding :10px
+font-size :16px; 
+font-family : Verdana;
+
+ }
+h2{margin-left: 8px;
+   margin-right: 8px;
+color:black;}
+h3{margin-left: 8px;
+   margin-right: 8px;
+color:black}
+p{margin-left: 8px;
+   margin-right: 8px;
+color:black}
